@@ -36,4 +36,13 @@ void caracter_personaje()
 
         system ("cls");
     }
+    
+    for (i=0;i<5;i++)
+    {
+        printf ("\nNombre: %s",perso[i].nombre);
+        printf ("\nTipo: %s",perso[i].tipo);
+        printf ("\nFuerza: %d",perso[i].fuerza);
+        printf ("\nSalud: %d",perso[i].salud);
+    }
+    getch();
 }
